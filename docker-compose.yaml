@@ -1,0 +1,11 @@
+version: '3.5'
+services:
+  postgres:
+    image: postgres:16.1
+    container_name: db
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: link-master
+      POSTGRES_PASSWORD: auT*k!K9Tp(8
+    restart: always
