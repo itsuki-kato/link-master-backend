@@ -2,6 +2,10 @@
 /dist
 /node_modules
 /build
+/src/@generated
+
+# graphql
+/src/shared/graphql/schema.gql
 
 # Logs
 logs
